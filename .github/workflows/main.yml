@@ -13,8 +13,8 @@ jobs:
           source-repo: 'git@github.com:222e/222e.github.io.git'
           destination-repo: 'git@gitee.com:xsjx/xsjx.git'
       - uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        with:
-          source-repo: 'git@github.com:222e/myblog.git'
-          destination-repo: 'git@gitee.com:xsjx/myblog.git'
+
+
+
+
+
