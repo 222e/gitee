@@ -12,9 +12,3 @@ jobs:
         with:
           source-repo: 'git@github.com:222e/222e.github.io.git'
           destination-repo: 'git@gitee.com:xsjx/xsjx.git'
-      - uses: wearerequired/git-mirror-action@v1
-
-
-
-
-
