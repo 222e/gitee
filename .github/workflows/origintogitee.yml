@@ -1,6 +1,6 @@
-name: Myblog to Github Repo
+name: Myblog to Gitee Repo
 
-on: [push, dispatched]
+on: repository_dispatch
 
 jobs:
   git-mirror:
@@ -10,5 +10,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         with:
-          source-repo: 'git@gitee.com:xsjx/myblog.git'
-          destination-repo: 'git@github.com:222e/myblog.git'
+          source-repo: 'git@github.com:222e/myblog.git'
+          destination-repo: 'git@gitee.com:xsjx/myblog.git'
