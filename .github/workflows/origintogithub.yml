@@ -1,6 +1,6 @@
-name: Myblog to Gitee Repo
+name: Myblog to Github Repo
 
-on: [push, repository_dispatch]
+on: push
 
 jobs:
   git-mirror:
