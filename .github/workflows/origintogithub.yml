@@ -1,6 +1,6 @@
 name: Myblog to Github Repo
 
-on: [push]
+on: push
 
 jobs:
   git-mirror:
