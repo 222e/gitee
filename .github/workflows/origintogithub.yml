@@ -1,5 +1,5 @@
 name: Myblog to Github Repo
-#hahaha
+#hahah
 on: push
 
 jobs:
