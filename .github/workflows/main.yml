@@ -1,6 +1,6 @@
 name: 222e to Gitee Repo
 
-on: [push, repository_dispatch]
+on: repository_dispatch
 
 jobs:
   git-mirror:
