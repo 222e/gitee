@@ -11,4 +11,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         with:
           source-repo: 'git@gitee.com:xsjx/a202005.git'
-          destination-repo: 'git@github.com:hixsj/a202005.git'
+          destination-repo: 'git@github.com:222e/a202005.git'
