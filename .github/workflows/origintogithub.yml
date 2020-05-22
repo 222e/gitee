@@ -1,6 +1,6 @@
 name: Myblog to Github Repo
-#hahaha
-on: repository_dispatch
+#平时关闭此action
+#on: push
 
 jobs:
   git-mirror:
